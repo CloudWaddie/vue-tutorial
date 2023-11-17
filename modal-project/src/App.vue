@@ -1,12 +1,14 @@
 <template>
-  <h1>My First App</h1>
+  <h1>{{  title }}</h1>
 </template>
 
 <script>
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      title: 'My First Vue App'
+    }
   }
 }
 </script>
